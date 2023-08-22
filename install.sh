@@ -73,7 +73,7 @@ then
     echo ""
 	echo "Installing RF24 Repo..."
 	echo ""
-	git clone https://github.com/hostmasterT/RF24.git ${ROOT_PATH}/RF24
+	git clone https://github.com/RF24Installer/RF24.git ${ROOT_PATH}/RF24
 	echo ""
     echo "*** Install RF24 core using? ***"
     echo "1.BCM2835 Driver(Performance) 2.SPIDEV(Compatibility, Default)"
