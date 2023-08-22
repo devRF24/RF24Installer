@@ -128,7 +128,7 @@ if [[ $DORF24 > 0 ]]
 then
 	echo "Installing RF24 Repo..."
 	echo ""
-	git clone https://github.com/hostmasterT/RF24.git ${ROOT_PATH}/RF24
+	git clone https://github.com/devRF24/RF24.git ${ROOT_PATH}/RF24
 	echo ""
     echo "*** Install RF24 core using? ***"
     echo "1.BCM2835 Driver(Performance) 2.SPIDEV(Compatibility, Default)"
